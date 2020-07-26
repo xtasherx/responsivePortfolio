@@ -1,3 +1,16 @@
+.navbar-brand{
+    font-family: 'Abril Fatface', cursive;
+    /* font-size: 2em; */
+    margin: 0px;
+    padding: 3px;
+    border: 1px solid #555 ;
+    border-radius: 100px;
+}
+.jumbotron{
+    background-image: url("pinkFlowers.jpg");
+    background-position: center;
+    background-size: cover;
+}
 .avi {
     margin: 20px;
     border-radius: 100px;
@@ -6,8 +19,17 @@
 h1{
     font-size: 6em;
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
 }
 
+h2{
+    font-family: 'Oswald', sans-serif; 
+}
+
+p{
+    
+}
 .card-body{
     border: solid 1px #eee;
 }
