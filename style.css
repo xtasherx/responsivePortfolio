@@ -7,7 +7,17 @@ h1{
     font-size: 6em;
 }
 
+.card-body{
+    border: solid 1px #eee;
+}
+
+.card {
+    margin: 10px;
+}
+
 footer{
     text-align: center;
     border-top: solid #eee 1px;
+    margin-top: 150px;
 }
+
