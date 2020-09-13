@@ -1,114 +1,59 @@
-
+.pink-dust {
+  background-image: url("pink dust.png");
+}
 /* tag selectors */
 html {
-    position: relative;
-    min-height: 100%;
-  }
+  position: relative;
+  min-height: 100%;
+}
 
 body {
-    margin-bottom: 120px; /* Margin bottom by footer height + 60 to create container padding*/
-  }
-
-  section{
-    margin-top: 60px;
+  margin-bottom: 140px; /* Margin bottom by footer height + 60 to create container padding*/
 }
 
-h1{
-    font-size: 6em;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    margin: 20px;
-    color:#a6aba6;
+h1 {
+  font-family: "Staatliches", cursive;
+  margin: 20px;
+  text-align: center;
 }
 
-h2{
-    font-family: 'Staatliches', cursive;
-    text-align: center;
-    color:#152617;
-    margin: auto;
+#about h1,
+#contact h1 {
+  color: #3e3c3d;
 }
 
-p{
-    color: #333;
-    margin: 40px;
-    text-align: center;
+#intro,
+#portfolio h1 {
+  color: white;
 }
 
-i{
-    font-size: 2em;
-    color: #152617;
+hr {
+  border: 1px solid #db2344;
 }
 
-a{
-    text-align: center;
-    color: #000;
+.jumbotron img {
+  max-width: 220px;
 }
-
-ul{/* styling for social media links on contact.html */
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding-left: 0px;
-}
-
-li {
-    margin: 15px;
-}
-
-/* class selectors */
-
-.navbar-brand{
-    font-family: 'Staatliches', cursive;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 3px 6px 3px 6px;
-    border: 1px solid #555 ;
-     
-}
-
-.jumbotron{
-    background-image: url("botany.jpg");
-    background-position: center;
-    background-size: cover;
-    margin-top: 0px;
-}
-
-.avi {/* about me avatar styling */
-    margin: 20px;
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
-}
-
-
-.about-me{/* about me bio section styling */
-    padding: 0px;
-    margin-top: 60px;
-}
-
-
-.card-body{
-    border: solid 1px #ddd;
-}
-
-.card {
-    margin: 10px;
-}
-
-.btn {
-    background-color: #555;
-    border: #555;
-}
-
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px; 
-    line-height: 60px; 
-    background-color:#152617;
-    text-align: center;
-    margin-top: 50px;
-  }
+  background-color: #3e3c3d;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  font-size: 2.5em;
+  padding-left: 0px;
+}
 
-
+.footer li a {
+  color: #db2344;
+  margin: 15px;
+}
