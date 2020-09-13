@@ -13,7 +13,7 @@ body {
 
 h1 {
   font-family: "Staatliches", cursive;
-  margin: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -30,7 +30,12 @@ h1 {
 hr {
   border: 1px solid #db2344;
 }
-
+#nav-logo {
+  color: #db2344;
+  font-family: "Staatliches", cursive;
+  font-size: 1.5em;
+  padding: 2px;
+}
 .jumbotron img {
   max-width: 220px;
 }
@@ -56,4 +61,48 @@ hr {
 .footer li a {
   color: #db2344;
   margin: 15px;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgb(62, 60, 61, 0.6);
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a {
+  color: whitesmoke;
+}
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
 }

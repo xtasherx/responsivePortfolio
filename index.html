@@ -31,6 +31,10 @@
     ></script>
     <script src="https://kit.fontawesome.com/dcfe77272e.js" crossorigin="anonymous"></script>
   </div>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
     <title>Natasha Harrington | Home</title>
   </head>
 
@@ -39,7 +43,9 @@
     <main>
       <div class="jumbotron jumbotron-fluid pink-dust" id="intro">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
-            <a class="navbar-brand" href="#">NH</a>
+            <a class="navbar-brand" href="#">
+                <img src="favicon.ico" width="30" height="30" alt="" loading="lazy">
+              </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -91,51 +97,69 @@
         <h1 class="display-4">Projects</h1>
 
         <div class="card-deck w-50 m-2">
-          <hr />
-          <div class="card bg-transparent">
-            <img
-              src="http://placeimg.com/400/300/tech/grayscale"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card bg-transparent">
-            <img
-              src="http://placeimg.com/400/300/tech/grayscale"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card bg-transparent">
-            <img
-              src="http://placeimg.com/400/300/tech/grayscale"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
+            <div class="card bg-transparent project-card">          
+                <img
+                    src="http://placeimg.com/400/300/tech/grayscale"
+                    class="card-img-top"
+                    alt="..."
+                />           
+                <div class="overlay">
+                    <div class="text"><a href="https://xtasherx.github.io/dayPlanner/" target="_blank">dayPlanner</a></div>
+                </div>
+              </div>
+            <div class="card bg-transparent project-card">          
+                <img
+                    src="http://placeimg.com/400/300/tech/grayscale"
+                    class="card-img-top"
+                    alt="..."
+                />           
+                <div class="overlay">
+                    <div class="text"><a href="https://xtasherx.github.io/weatherApp/" target="_blank">orange weather</a></div>
+                </div>
+            </div>
+            <div class="card bg-transparent project-card">          
+                <img
+                    src="http://placeimg.com/400/300/tech/grayscale"
+                    class="card-img-top"
+                    alt="..."
+                />           
+                <div class="overlay">
+                    <div class="text"><a href="#portfolio" target="_blank">Coming Soon</a></div>
+                </div>
+            </div>
         </div>
         <div class="card-deck w-50 m-2">
-          <div class="card bg-transparent">
+          <div class="card bg-transparent project-card">          
             <img
-              src="http://placeimg.com/400/300/tech/grayscale"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card bg-transparent">
-            <img
-              src="http://placeimg.com/400/300/tech/grayscale"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card bg-transparent">
-            <img
-              src="http://placeimg.com/400/300/tech/grayscale"
-              class="card-img-top"
-              alt="..."
-            />
+                src="http://placeimg.com/400/300/tech/grayscale"
+                class="card-img-top"
+                alt="..."
+            />           
+            <div class="overlay">
+                <div class="text"><a href="http://dispatchcenter.net/" target="_blank">Dispatch Center</a></div>
             </div>
+          </div>
+        <div class="card bg-transparent project-card">          
+            <img
+                src="http://placeimg.com/400/300/tech/grayscale"
+                class="card-img-top"
+                alt="..."
+            />           
+            <div class="overlay">
+                <div class="text"><a href="https://xtasherx.github.io/recipeApp/" target="_blank">Flying Dish</a></div>
+            </div>
+        </div>
+        <div class="card bg-transparent project-card">          
+            <img
+                src="http://placeimg.com/400/300/tech/grayscale"
+                class="card-img-top"
+                alt="..."
+            />           
+            <div class="overlay">
+                <div class="text"><a href="#portfolio" target="_blank">Coming Soon</a></div>
+            </div>
+        </div>
+    
           </div>
         </div>
       </div>
@@ -171,7 +195,7 @@
                     placeholder="I want to hire you."
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary btn-dark">Submit</button>
               </form>
 
              
