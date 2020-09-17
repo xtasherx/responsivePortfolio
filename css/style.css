@@ -1,5 +1,5 @@
 .pink-dust {
-  background-image: url("pink dust.png");
+  background-image: url("../assets/pink dust.png");
 }
 /* tag selectors */
 html {
@@ -79,10 +79,13 @@ hr {
   display: block;
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 .card-text {
   text-align: center;
+}
+.card {
+  border-width: 0px;
 }
 .overlay {
   position: absolute;
