@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -32,10 +32,10 @@
     ></script>
     <script src="https://kit.fontawesome.com/dcfe77272e.js" crossorigin="anonymous"></script>
   </div>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="assets/apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
     <title>Natasha Harrington | Home</title>
   </head>
 
@@ -45,7 +45,7 @@
       <div class="jumbotron jumbotron-fluid pink-dust pt-0" id="intro">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
             <a class="navbar-brand" href="#">
-                <img src="favicon.ico" width="30" height="30" alt="" loading="lazy">
+                <img src="../assets/favicon.ico" width="30" height="30" alt="" loading="lazy">
               </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -68,11 +68,11 @@
           class="container d-flex flex-column align-items-center justify-content-center p-5 "
         >
           <img
-            src="my-avi.jpg"
+            src="../assets/my-avi.jpg"
             alt="natasha harrington"
             class="rounded-circle avi"
           />
-          <img src="bracket-logo.png" alt="logo" class="logo" >
+          <img src="../assets/bracket-logo.png" alt="logo" class="logo" >
           
         </div>
       </div>
@@ -83,22 +83,17 @@
         <div class="container-md mb-5">
           <hr />
           <div class="d-flex m-3">
-          <p>
-            Hi, I'm Tasha. I'm a 
+          <p >
+            Hi, I'm Tasha! I'm an aspiring full stack web developer based out of San Antonio, Tx. I'm a science-fiction nerd, a gamer, a late-night baker and a dog mom. I also have a passion for programming. I love the problem solving aspects of coding and the feeling of success everytime you finally get a program to work. 
+            I have close to two years of self-taught experience with front end technologies. I'm currently 
+            enrolled in a Full Stack Bootcamp through the University of Texas San Antonio to continue building 
+            that knowledge and gain more experience with server-side technologies. I'm looking to transition out of my current position as a data entry 
+            team lead with my current company into a full time development position. 
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-            magni repellat quos vero exercitationem accusamus quaerat facilis
-            in. Similique nobis quis atque ad laboriosam sequi harum voluptate
-            sed fugit ipsa?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-            magni repellat quos vero exercitationem accusamus quaerat facilis
-            in. Similique nobis quis atque ad laboriosam sequi harum voluptate
-            sed fugit ipsa?
-          </p>
+
         </div>
         </div>
-        <h2 class="display-6">What can I do</h2>
+        <h2 class="display-6">What I Can Do</h2>
         
         <div class="container-sm d-flex  flex-wrap justify-content-center">
           <div class="d-flex">
@@ -174,8 +169,9 @@
           </div>
         </div>
         <div class="d-flex align-items-center justify-content-center m-3">
-          <button type="button" class="btn btn-dark rounded-pill cv-btn m-2">Hire Me</button>
-          <button type="button" class="btn btn-dark rounded-pill cv-btn m-2">Download CV</button>
+          
+          <a class="btn btn-dark rounded-pill cv-btn m-2"  href="natasha-harrington-cv.pdf">Download CV</a>
+
         </div>
         
       </div>
@@ -190,10 +186,10 @@
   
           <div class="card-deck w-75 m-2">
 
-            <div class="card bg-transparent"> 
-              <div class="project-card">
+            <div class="card bg-transparent" > 
+              <div class="card bg-transparent project-card">
                 <img
-                    src="orange.PNG"
+                    src="../assets/orange.PNG"
                     class="card-img-top"
                     alt="..."
                 />           
@@ -202,7 +198,7 @@
                 </div>
               </div>
 
-              <div class="card-body bg-light">
+              <div class="card card-body bg-light">
                 <p class="card-text">
                   <a href="https://github.com/xtasherx/weatherApp">View on github <i class="fab fa-github-square"></i></a>
                 </p>
@@ -212,104 +208,108 @@
             </div>
                 
               <div class="card bg-transparent"> 
-                <div class="project-card">
+                <div class=" card bg-transparent project-card">
                   <img
-                      src="flying-dish.PNG"
+                      src="../assets/flying-dish.PNG"
                       class="card-img-top"
                       alt="..."
                   />           
                   <div class="overlay">
                       <div class="text"><a href="https://xtasherx.github.io/recipeApp/" target="_blank">Flying Dish</a></div>
                   </div>
-                  <div class="card-body bg-light">
-                    <p class="card-text">
-                      <a href="https://github.com/xtasherx/weatherApp">View on github <i class="fab fa-github-square"></i></a>
-                    </p>
-                    
-                  </div>
-                </div>         
-                  
+
+                </div>  
+
+                <div class=" card card-body bg-light">
+                  <p class="card-text">
+                    <a href="https://github.com/xtasherx/weatherApp">View on github <i class="fab fa-github-square"></i></a>
+                  </p>  
+                </div>
               </div>
   
               <div class="card bg-transparent"> 
-                <div class="project-card">
+                <div class="card bg-transparent project-card">
                   <img
-                      src="day-planner.png"
+                      src="../assets/day-planner.png"
                       class="card-img-top"
                       alt="..."
                   />           
                   <div class="overlay">
                       <div class="text"><a href="https://xtasherx.github.io/dayPlanner/" target="_blank">Day Planner</a></div>
                   </div>
-                  <div class="card-body bg-light">
-                    <p class="card-text">
-                      <a href="https://github.com/xtasherx/dayPlanner">View on github <i class="fab fa-github-square"></i></a>
-                    </p>
-                    
-                  </div>
-                </div>         
+                  
+                </div>  
+                <div class=" card card-body bg-light">
+                  <p class="card-text">
+                    <a href="https://github.com/xtasherx/dayPlanner">View on github <i class="fab fa-github-square"></i></a>
+                  </p>
+                  
+                </div>       
                   
               </div>
 
           </div>
           <div class="card-deck w-75 m-2">
             <div class="card bg-transparent"> 
-              <div class="project-card">
+              <div class=" card bg-transparent project-card">
                 <img
-                    src="dispatchsite.PNG"
+                    src="../assets/dispatchsite.PNG"
                     class="card-img-top"
                     alt="..."
                 />           
                 <div class="overlay">
                     <div class="text"><a href="https://dispatchcenter.net" target="_blank">Dispatch Center</a></div>
                 </div>
-                <div class="card-body bg-light">
-                  <p class="card-text">
-                    <a href="https://dispatchcenter.net">Dispatch Center Ltd. </a>
-                  </p>
-                  
-                </div>
-              </div>         
+                
+              </div> 
+              <div class=" card card-body bg-light">
+                <p class="card-text">
+                  <a href="https://dispatchcenter.net">Dispatch Center Ltd. </a>
+                </p>
+                
+              </div>        
                 
             </div>
 
           <div class="card bg-transparent"> 
-                <div class="project-card">
+                <div class="card bg-transparent project-card">
                   <img
-                      src="coming-soon.jpg"
+                      src="../assets/coming-soon.jpg"
                       class="card-img-top"
                       alt="..."
                   />           
                   <div class="overlay">
                       <div class="text"><a href="" target="_blank">Coming Soon</a></div>
                   </div>
-                  <div class="card-body bg-light">
-                    <p class="card-text">
-                      <a href="https://github.com/xtasherx/weatherApp">Coming Soon </a>
-                    </p>
-                    
-                  </div>
-                </div>         
+                  
+                </div>  
+                <div class="card card-body bg-light">
+                  <p class="card-text">
+                    <a href="https://github.com/xtasherx/weatherApp">Coming Soon </a>
+                  </p>
+                  
+                </div>      
                   
               </div>
 
               <div class="card bg-transparent"> 
-                <div class="project-card">
+                <div class="card bg-transparent project-card">
                   <img
-                      src="coming-soon.jpg"
+                      src="../assets/coming-soon.jpg"
                       class="card-img-top"
                       alt="..."
                   />           
                   <div class="overlay">
                       <div class="text"><a href="" target="_blank">Coming Soon</a></div>
                   </div>
-                  <div class="card-body bg-light">
-                    <p class="card-text">
-                      <a href="https://github.com/xtasherx/weatherApp">Coming Soon </a>
-                    </p>
-                    
-                  </div>
-                </div>         
+                  
+                </div>  
+                <div class=" card card-body bg-light">
+                  <p class="card-text">
+                    <a href="https://github.com/xtasherx/weatherApp">Coming Soon </a>
+                  </p>
+                  
+                </div>       
                   
               </div>
       
