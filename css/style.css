@@ -1,150 +1,96 @@
-.pink-dust {
-  background-image: url("../assets/pink dust.png");
-}
-/* tag selectors */
-html {
-  position: relative;
-  min-height: 100%;
+body,
+.dark-grey {
+  background-color: #101011;
 }
 
-body {
-  margin-bottom: 140px; /* Margin bottom by footer height + 60 to create container padding*/
+.hero-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)),
+    url(/assets/photo-1500740516770-92bd004b996e.jpg);
+  background-size: cover;
 }
 
-h1 {
-  font-family: "Josefin Sans", sans-serif;
-  margin-top: 20px;
-  text-align: center;
-}
-h2 {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#about h1,
-#contact h1,
-h2 {
-  color: #3e3c3d;
+.gradientText {
+  background-color: #a21f61;
+  background-image: linear-gradient(
+    15deg,
+    rgba(162, 31, 97, 1) 12%,
+    rgba(77, 68, 68) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
-#intro,
-#portfolio h1 {
-  color: white;
-}
-
-hr {
-  border: 1px solid #db2344;
-}
-#nav-logo {
-  color: #db2344;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.5em;
-  padding: 2px;
-}
-.avi {
-  max-width: 175px;
-}
-
-.cv-btn {
-  background-color: #3e3c3d;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.footer {
-  background-color: #3e3c3d;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 140px;
-  display: flex;
+.about {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.footer ul {
-  list-style: none;
-  display: flex;
-  font-size: 2.5em;
-  padding-left: 0px;
 }
 
-.footer li a {
-  color: #db2344;
-  margin: 15px;
+#line-height {
+  line-height: normal;
 }
 
-.card-img-top {
-  display: block;
-  width: 100%;
-  height: auto;
-  /* filter: grayscale(100%); */
-}
-.card-text {
-  text-align: center;
-}
-.card {
-  border-width: 0px;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: rgba(83, 79, 79, 0.9);
+#about-btn:hover,
+#submit-btn:hover {
+  background-color: #8256e1;
 }
 
-.project-card:hover .overlay {
-  opacity: 1;
+.arrows {
+  align-self: flex-end;
+  justify-self: center;
+}
+.about-divider {
+  height: 100px;
 }
 
-.text {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.portfolio-divider {
+  height: 100px;
+}
+.card-row {
+  flex-direction: column;
 }
 
-.text a {
-  color: whitesmoke;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
-}
-.text a:hover {
-  text-decoration: none;
-  color: whitesmoke;
+.u-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.card-text a {
-  color: #db2344;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
+.u-overlay:hover {
+  transition: 1s ease;
+  background-color: rgba(16, 16, 17, 0);
 }
 
-.dot {
-  height: 10px;
-  width: 10px;
-  /* background-color: #db2344; */
-  border-radius: 50%;
-  display: inline-block;
+/* media queries  */
+@media (min-width: 700px) and (max-width: 900px) {
+  .about {
+    margin: 6rem;
+  }
 }
 
-.html-div,
-.css-div,
-.js-div,
-.bootstrap-div,
-.mdb-div,
-.node-div,
-.react-div {
-  color: #3e3c3d;
+@media (min-width: 600px) and (max-width: 700px) {
+  .about {
+    margin: 5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .about,
+  .card-row {
+    flex-direction: row;
+  }
+  .p-card {
+    width: 33%;
+  }
+}
+
+@media (min-width: 1160px) and (max-width: 1500px) {
+  .about {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1501px) {
+  .about {
+    width: 50%;
+  }
 }
