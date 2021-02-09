@@ -1,391 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;" />
     <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/dcfe77272e.js"
       crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="cirrus.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://kit.fontawesome.com/dcfe77272e.js" crossorigin="anonymous"></script>
-  </div>
-  <link rel="assets/apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-  <link rel="manifest" href="assets/site.webmanifest">
-    <title>Natasha Harrington | Home</title>
+    <script src="app.js" defer></script>
+    <title>Natasha Harrington | Portfolio</title>
   </head>
 
   <body>
-  
-    <main>
-      <div class="jumbotron jumbotron-fluid pink-dust pt-0" id="intro">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
-            <a class="navbar-brand" href="#">
-                <img src="assets/favicon.ico" width="30" height="30" alt="" loading="lazy">
-              </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
+    <!-- hero div  -->
+    <div class="hero fullscreen hero-img parallax-img" id="dark">
+      <div class="header header-fixed u-unselectable header-dark header-animated">
+        <div class="header-brand">
+            <div class="nav-item no-hover">
+                <a><h6 class=""></h6></a>
             </div>
-          </nav>
-        <div
-          class="container d-flex flex-column align-items-center justify-content-center p-5 "
-        >
-          <img
-            src="assets/my-avi.jpg"
-            alt="natasha harrington"
-            class="rounded-circle avi"
-          />
-          <img src="assets/bracket-logo.png" alt="logo" class="logo" >
-          
+            <div class="nav-item nav-btn" id="header-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="header-nav" id="header-menu">
+            <div class="nav-left">
+               
+
+            </div>
+            <div class="nav-center">
+              <div class="nav-item ">
+                  <a href="#about" class="u u-LR">About</a>
+              </div>
+              <div class="nav-item">
+                  <a href="#portfolio" class="u u-LR">Portfolio</a>
+              </div>
+              <div class="nav-item">
+                <a href="#contact" class="u u-LR">Contact</a>
+              </div>
+            </div>
+            <div class="nav-right">
+
+                
+            </div>
+        </div>
+    </div>
+      <div class="hero-body">
+        <div class="content">
+          <div class="animated bounce u-flex-column">
+            <h5 class="title text-gray-300 font-alt">Hi I'm</h5>
+            <h1 class="subtitle title text-purple-600">Natasha Harrington</h1>
+            <h5 class="subtitle title text-gray-300 font-alt">
+              a full stack web developer
+            </h5>
+            <h5 class="subtitle text-gray-300 font-alt">
+              currently living in San Antonio, Tx <i class="fas fa-map-marker-alt"></i>
+            </h5>
+            
+
+          </div>
+          <a href="#about" ><h1 class="faded text-gray-300 m-0"><i class="fas fa-angle-double-down animated pulse "></i></h1></a>
         </div>
       </div>
+    </div>
 
-      <div class="container-fluid p-5" id="about">
-        <h1 class="display-5">ABOUT</h1>
-
-        <div class="container-md mb-5">
-          <hr />
-          <div class="d-flex m-3">
-          <p >
-            Hi, I'm Tasha! I'm an aspiring full stack web developer based out of San Antonio, Tx. I'm a science-fiction nerd, a gamer, a late-night baker and a dog mom. I also have a passion for programming. I love the problem solving aspects of coding and the feeling of success everytime you finally get a program to work. 
-            I have close to two years of self-taught experience with front end technologies. I'm currently 
-            enrolled in a Full Stack Bootcamp through the University of Texas San Antonio to continue building 
-            that knowledge and gain more experience with server-side technologies. I'm looking to transition out of my current position as a data entry 
-            team lead with my current company into a full time development position. 
-          </p>
-
-        </div>
-        </div>
-        <h2 class="display-6">What I Can Do</h2>
+    <!-- about section  -->
+    <div class="hero u-flex-column u-items-center u-justify-center" >
+      <div class="about-divider" id="about" ></div>
+      <div class="bg-transparent u-flex-column u-center m-4">
         
-        <div class="container-sm d-flex  flex-wrap justify-content-center">
-          <div class="d-flex">
-            <div class="html-div d-flex flex-column align-items-center m-3">
-              <i class="fab fa-html5" style="font-size: 2em;"></i>
-              <div>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-            </div>
-            </div>
-            <div class="css-div d-flex flex-column align-items-center m-3">
-              <i class="fab fa-css3" style="font-size: 2em;"></i>
-              <div>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-            </div>
-            </div>
-            <div class="js-div d-flex flex-column align-items-center m-3">
-              <i class="fab fa-js-square" style="font-size: 2em;"></i>
-              <div>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #C7CFD0;"></span>
-            </div>
-            </div>
-            <div class="bootstrap-div d-flex flex-column align-items-center m-3">
-              <i class="fab fa-bootstrap" style="font-size: 2em;"></i>
-              <div> 
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #C7CFD0;"></span>
-            </div>
-            </div>
+        <div class="u-flex about u-items-center">
+          <img class="m-3 u-round" src="assets/bnwmephoto.jpg" alt="" style="max-width: 331px; max-height: 294px;" />
+          <div class="u-text-center">
+            <h3 class="title text-purple-600">I love polished design & clean code.</h3>
+            <p class="subtitle text-gray-300" id="line-height">
+               I have over two years of experience creating clean, accessible and mobile friendly front end design. I've recently graduated a six month full stack coding program throught the University of Texas at San Antonio
+               where I was able to focus on learning the ins and outs of both SQL and noSQL databases.
           </div>
-
-
-          <div class="d-flex">
-            <div class="mdb-div d-flex flex-column align-items-center m-3">
-              <i class="fab fa-mdb" style="font-size: 2em;"></i>
-              <div>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #C7CFD0"></span>
-                <span class="dot" style="background-color: #C7CFD0;"></span>
-                <span class="dot" style="background-color: #C7CFD0;"></span>
-            </div>
-            </div>
-            <div class="node-div d-flex flex-column align-items-center m-3">
-              <i class="fab fa-node-js" style="font-size: 2em;"></i>
-              <div>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color:#C7CFD0;"></span>
-
-            </div>
-            </div>
-            <div class="react-div d-flex flex-column align-items-center m-3">
-              <i class="fab fa-react" style="font-size: 2em;"></i>
-              <div>
-                <span class="dot" style="background-color: #db2344;"></span>
-                <span class="dot" style="background-color: #C7CFD0;"></span>
-                <span class="dot" style="background-color: #C7CFD0;"></span>
-                <span class="dot" style="background-color: #C7CFD0;"></span>
-
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-center m-3">
-          
-          <a class="btn btn-dark rounded-pill cv-btn m-2"  href="natasha-harrington-cv.pdf " target="_blank">Download CV</a>
 
         </div>
-        
+
+        <div class="content text-gray-300 u-flex u-center">
+          <ul class="no-bullets u-text-center">
+            <li class="hover-grow title"><h6>React <i class="fab fa-react"></i></h6></li>
+            <li class="hover-grow title"><h6>HTML5 <i class="fab fa-html5" ></i></h6></li>
+          </ul>
+
+          <ul class="no-bullets  u-text-center">
+            <li class="hover-grow title"><h6>CSS3 <i class="fab fa-css3" ></i></h6></li>
+            <li class="hover-grow title"><h6>Bootstrap <i class="fab fa-bootstrap" ></i></h6></li>
+          </ul>
+
+          <ul class="no-bullets  u-text-center">
+            <li class="hover-grow title"><h6>JavaScript <i class="fab fa-js-square" ></i></h6></li>
+            <li class="hover-grow title"><h6>Node.js <i class="fab fa-node-js" ></i></h6></li>
+          </ul>
+
+          <ul class="no-bullets  u-text-center">
+            <li class="hover-grow title"><h6>MongoDb <i class="fab fa-mdb" ></i></h6></li>
+            <li class="hover-grow title"><h6>MySQL <i class="fas fa-database"></i></h6></li>
+          </ul>
+        </div>
       </div>
-   
-      <div
-        class="container-fluid d-flex flex-column align-items-center pink-dust p-5"
-        id="portfolio"
-      >
-        <h1 class="display-5">PROJECTS</h1>
+      <div class="btn-group m-3">
+        <a href="#portfolio" class="btn btn-small btn-transparent text-gray-300 " id="about-btn">recent projects</a>
+        <a href="#contact" class="btn btn-small btn-transparent text-gray-300 " id="about-btn">contact</a>    
+      </div>
+      <div class="about-divider"></div>
+    </div>
 
+    <!-- portfolio section  -->
+    <div class="hero-img pt-5" id="portfolio">
+      <!-- first project row  -->
+      <div class="portfolio-divider"></div>
+      <div class="card-row m-2 u-flex u-center top-card">
+
+        <div class="p-card m-1 u-position-relative" style="max-width: 500px;">
+          <a href="http://dispatchcenter.net" target="_blank" style="padding: 0px">
+          <div class="u-overlay u-round u-center"> <h1 class=" font-light uppercase text-purple-600 u-text-center">Dispatch Center</h1></div>
+          <img src="assets/dispatchsite.PNG" alt="" class="img-cover u-round p-0" />
+        </a>
+        </div>
+
+        <div class="p-card m-1 u-position-relative" style="max-width: 500px;">
+          <a href="https://xtasherx.github.io/weatherApp/" target="_blank" style="padding: 0px">
+          <div class="u-overlay u-round u-center"> <h1 class=" font-light uppercase text-purple-600">Meteorcast</h1></div>
+          <img src="assets/orange.PNG" alt="" class="img-cover u-round p-0" />
+        </a>
+        </div>
+
+
+      </div>
+
+      <!-- second project row  -->
+      <div class="card-row m-2 u-flex u-center">
+        <div class="p-card m-1 u-position-relative" style="max-width: 500px;">
+          <a href="https://infinite-journey-37798.herokuapp.com/" target="_blank" style="padding: 0px">
+          <div class="u-overlay u-round u-center"> <h1 class=" font-light uppercase text-purple-600">Rapsheet</h1></div>
+          <img src="assets/rap-snap.PNG" alt="" class="img-cover u-round p-0" />
+        </a>
+        </div>
+
+        <div class="p-card m-1 u-position-relative" style="max-width: 500px;">
+          <a href="https://github.com/xtasherx/READMEGenerator" target="_blank" style="padding: 0px">
+          <div class="u-overlay u-round u-center"> <h1 class=" font-light uppercase text-purple-600 u-text-center">README Generator</h1></div>
+          <img src="assets/readme-snap.PNG" alt="" class="img-cover u-round p-0" />
+        </a>
+        </div>
+      </div>
+
+      <!-- third project row  -->
+      <div class="card-row m-2 u-flex u-center">
+        <div class="p-card m-1 u-position-relative" style="max-width: 500px;">
+          <a href="https://xtasherx.github.io/recipeApp/" target="_blank" style="padding: 0px">
+          <div class="u-overlay u-round u-center"> <h1 class=" font-light uppercase text-purple-600">Flying Dish</h1></div>
+          <img src="assets/flying-dish.PNG" alt="" class="img-cover u-round p-0" />
+        </a>
+        </div>
         
-  
-          <div class="card-deck w-75 m-2">
+        <div class="p-card m-1 u-position-relative" style="max-width: 500px;">
+          <a href="https://xtasherx.github.io/dayPlanner/" target="_blank" style="padding: 0px">
+          <div class="u-overlay u-round u-center"> <h1 class=" font-light uppercase text-purple-600 u-text-center">Day Planner</h1></div>
+          <img src="assets/day-planner.png" alt="" class="img-cover u-round p-0" />
+        </a>
+        </div>
+     
+      </div>
+      <div class="about-divider"></div>
+    </div>
 
-            <div class="card bg-transparent" > 
-              <div class="card bg-transparent project-card">
-                <img
-                    src="assets/orange.PNG"
-                    class="card-img-top"
-                    alt="..."
-                />           
-                <div class="overlay">
-                    <div class="text"><a href="https://xtasherx.github.io/weatherApp/" target="_blank">ORANGE WEATHER</a></div>
-                </div>
-              </div>
 
-              <div class="card card-body bg-light">
-                <p class="card-text">
-                  <a href="https://github.com/xtasherx/weatherApp">View on github <i class="fab fa-github-square"></i></a>
-                </p>
-                
-              </div>       
-                
-            </div>
-                
-              <div class="card bg-transparent"> 
-                <div class=" card bg-transparent project-card">
-                  <img
-                      src="assets/flying-dish.PNG"
-                      class="card-img-top"
-                      alt="..."
-                  />           
-                  <div class="overlay">
-                      <div class="text"><a href="https://xtasherx.github.io/recipeApp/" target="_blank">Flying Dish</a></div>
-                  </div>
+      <!-- contact section  -->
+      <div class="hero u-flex-column u-center">
+        <div class="about-divider" id="contact"></div>
+        <div class="hero-body u-flex u-flex-column u-justify-center u-text-center">
+          <div>
+          <h1 class="title text-light">Say hello.</h1>
+          <div class=" ignore-screen level-item text-purple-600"><p class="m-0">Name:</p></div>
+          <div class="ignore-screen level-item "><input type="name" value=""></input> </div>
 
-                </div>  
 
-                <div class=" card card-body bg-light">
-                  <p class="card-text">
-                    <a href="https://github.com/xtasherx/weatherApp">View on github <i class="fab fa-github-square"></i></a>
-                  </p>  
-                </div>
-              </div>
-  
-              <div class="card bg-transparent"> 
-                <div class="card bg-transparent project-card">
-                  <img
-                      src="assets/day-planner.png"
-                      class="card-img-top"
-                      alt="..."
-                  />           
-                  <div class="overlay">
-                      <div class="text"><a href="https://xtasherx.github.io/dayPlanner/" target="_blank">Day Planner</a></div>
-                  </div>
-                  
-                </div>  
-                <div class=" card card-body bg-light">
-                  <p class="card-text">
-                    <a href="https://github.com/xtasherx/dayPlanner">View on github <i class="fab fa-github-square"></i></a>
-                  </p>
-                  
-                </div>       
-                  
-              </div>
+          <div class=" ignore-screen level-item text-purple-600"><p class="m-0">Email:</p></div>
+          <div class="ignore-screen level-item"><input type="email" value=""></input></div>
 
-          </div>
-          <div class="card-deck w-75 m-2">
-            <div class="card bg-transparent"> 
-              <div class=" card bg-transparent project-card">
-                <img
-                    src="assets/dispatchsite.PNG"
-                    class="card-img-top"
-                    alt="..."
-                />           
-                <div class="overlay">
-                    <div class="text"><a href="http://dispatchcenter.net" target="_blank">Dispatch Center</a></div>
-                </div>
-                
-              </div> 
-              <div class=" card card-body bg-light">
-                <p class="card-text">
-                  <a href="http://dispatchcenter.net/">Dispatch Center Ltd. </a>
-                </p>
-                
-              </div>        
-                
-            </div>
-
-          <div class="card bg-transparent"> 
-                <div class="card bg-transparent project-card">
-                  <img
-                      src="assets/readme-snap.PNG"
-                      class="card-img-top"
-                      alt="..."
-                  />           
-                  <div class="overlay">
-                      <div class="text"><a href="https://github.com/xtasherx/READMEGenerator" target="_blank">ReadMe Generator</a></div>
-                  </div>
-                  
-                </div>  
-                <div class="card card-body bg-light">
-                  <p class="card-text">
-                    <a href="https://github.com/xtasherx/READMEGenerator">View on github <i class="fab fa-github-square"></i></a>
-                  </p>
-                  
-                </div>      
-                  
-              </div>
-
-              <div class="card bg-transparent"> 
-                <div class="card bg-transparent project-card">
-                  <img
-                      src="assets/rap-snap.PNG"
-                      class="card-img-top"
-                      alt="..."
-                  />           
-                  <div class="overlay">
-                      <div class="text"><a href="https://infinite-journey-37798.herokuapp.com/" target="_blank">RapSheet</a></div>
-                  </div>
-                  
-                </div>  
-                <div class=" card card-body bg-light">
-                  <p class="card-text">
-                    <a href="https://github.com/xtasherx/project2">View on github <i class="fab fa-github-square"></i></a>
-                  </p>
-                  
-                </div>       
-                  
-              </div>
-      
-            </div>
+          <div class=" ignore-screen level-item text-purple-600"><p class="m-0">Message:</p></div>
+          <textarea></textarea>
+          <input type="submit" class="btn-small btn-transparent text-gray-300 pull-right " id="submit-btn" />
           </div>
       </div>
 
-      <div class="container-fluid" id="contact">
-  
-        <div class="row p-5">
-          <div class="col-md-3"></div>
-          <!-- empty column to center form box -->
-          <div class="col-md-6">
-            <section class="card-body">
-              <h1 class="display-5">CONTACT</h1>
-
-              <!-- contact form -->
-              <form>
-                <div class="form-group">
-                  <label for="nameInput">Name</label>
-                  <input type="text" class="form-control" id="nameInput" placeholder="Jane Doe" />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">E-mail</label>
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="email@example.com"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="exampleInputMessage1"
-                    placeholder="Your message here."
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-dark">Submit</button>
-              </form>
-
-             
-          <div class="col-md-3"></div>
-          <!-- empty column to center form box -->
-      
-      </div>
-      </div>
-    </main>
-
-    <footer class="footer">
-         <!-- social media links -->
-         <ul>
-            <li>
+      <!-- footer  -->
+      <footer class="footer hero-img">
+        <h4 class="footer__title text-purple-600 uppercase ">Natasha Harrington</h4>
+        <div class="content">
+          <div class="divider text-gray-300"></div>
+          <ul class="no-bullets u-flex u-center">
+            <li class="m-1">
               <a
                 href="https://www.linkedin.com/in/natasha-harrington-b94a401a9/"
                 target="_blank"
-                ><i class="fab fa-linkedin"></i
-              ></a>
+                ><h1><i class="fab fa-linkedin"></i
+                  ></h1></a>
             </li>
-            <li>
+            <li class="m-1">
               <a href="https://github.com/xtasherx" target="_blank"
-                ><i class="fab fa-github-square"></i
-              ></a>
-            </li>
-            <li>
+                ><h1><i class="fab fa-github-square"></i
+                  ></h1></a>
+            </li >
+            <li class="m-1">
               <a
                 href="https://stackoverflow.com/users/11646029/natasha-harrington"
                 target="_blank"
-                ><i class="fab fa-stack-overflow"></i
-              ></a>
+                > <h1><i class="fab fa-stack-overflow"></i
+                  ></h1></a>
             </li>
           </ul>
-      <div >
-        <span class="text-muted">&copy; Natasha Harrington 2020</span>
-      </div>
-    </footer>
+        <p class="subtitle">Natasha Harrington © 2021.</p>
+      </footer>
   </body>
 </html>
