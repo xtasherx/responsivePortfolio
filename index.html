@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
       src="https://kit.fontawesome.com/dcfe77272e.js"
       crossorigin="anonymous"
@@ -24,9 +25,10 @@
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="cirrus.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="app.js" defer></script>
+    <script src="scripts/app.js" defer></script>
     <title>Natasha Harrington | Portfolio</title>
   </head>
 
@@ -61,8 +63,6 @@
               </div>
             </div>
             <div class="nav-right">
-
-                
             </div>
         </div>
     </div>
@@ -95,31 +95,32 @@
           <div class="u-text-center">
             <h3 class="title text-purple-600">I love polished design & clean code.</h3>
             <p class="subtitle text-gray-300" id="line-height">
-               I have over two years of experience creating clean, accessible and mobile friendly front end design. I've recently graduated a six month full stack coding program throught the University of Texas at San Antonio
-               where I was able to focus on learning the ins and outs of both SQL and noSQL databases.
+               I have over two years of experience creating clean, accessible and mobile friendly front end design. I've recently graduated a six month full stack coding program through the University of Texas at San Antonio
+               where I was able to work both individually and in a team environment taking multiple applications from 
+               the concept and wireframing stages all the way through deployment. I feel most at home working with React, Bootstrap, and other front end technologies as well as writing RESTful API's but I'm excited to continue to learn and work more with both SQL and noSQL databases as well as ORM's such as sequelize and mongoose.
           </div>
 
         </div>
 
         <div class="content text-gray-300 u-flex u-center">
           <ul class="no-bullets u-text-center">
-            <li class="hover-grow title"><h6>React <i class="fab fa-react"></i></h6></li>
-            <li class="hover-grow title"><h6>HTML5 <i class="fab fa-html5" ></i></h6></li>
+            <li class="hover-grow title"><h6>React <i class=" text-purple-600 fab fa-react"></i></h6></li>
+            <li class="hover-grow title"><h6>HTML5 <i class="text-purple-600 fab fa-html5" ></i></h6></li>
           </ul>
 
           <ul class="no-bullets  u-text-center">
-            <li class="hover-grow title"><h6>CSS3 <i class="fab fa-css3" ></i></h6></li>
-            <li class="hover-grow title"><h6>Bootstrap <i class="fab fa-bootstrap" ></i></h6></li>
+            <li class="hover-grow title"><h6>CSS3 <i class="text-purple-600 fab fa-css3" ></i></h6></li>
+            <li class="hover-grow title"><h6>Bootstrap <i class="text-purple-600 fab fa-bootstrap" ></i></h6></li>
           </ul>
 
           <ul class="no-bullets  u-text-center">
-            <li class="hover-grow title"><h6>JavaScript <i class="fab fa-js-square" ></i></h6></li>
-            <li class="hover-grow title"><h6>Node.js <i class="fab fa-node-js" ></i></h6></li>
+            <li class="hover-grow title"><h6>JavaScript <i class="text-purple-600 fab fa-js-square" ></i></h6></li>
+            <li class="hover-grow title"><h6>Node.js <i class="text-purple-600 fab fa-node-js" ></i></h6></li>
           </ul>
 
           <ul class="no-bullets  u-text-center">
-            <li class="hover-grow title"><h6>MongoDb <i class="fab fa-mdb" ></i></h6></li>
-            <li class="hover-grow title"><h6>MySQL <i class="fas fa-database"></i></h6></li>
+            <li class="hover-grow title"><h6>MongoDb <i class="text-purple-600 fab fa-mdb" ></i></h6></li>
+            <li class="hover-grow title"><h6>MySQL <i class="text-purple-600 fas fa-database"></i></h6></li>
           </ul>
         </div>
       </div>
@@ -198,16 +199,17 @@
           <div>
           <h1 class="title text-light">Say hello.</h1>
           <div class=" ignore-screen level-item text-purple-600"><p class="m-0">Name:</p></div>
-          <div class="ignore-screen level-item "><input type="name" value=""></input> </div>
+          <div class="ignore-screen level-item "><input type="name" value="" class="form-name"></input> </div>
 
 
           <div class=" ignore-screen level-item text-purple-600"><p class="m-0">Email:</p></div>
-          <div class="ignore-screen level-item"><input type="email" value=""></input></div>
+          <div class="ignore-screen level-item"><input type="email" class="form-email" value=""></input></div>
 
           <div class=" ignore-screen level-item text-purple-600"><p class="m-0">Message:</p></div>
-          <textarea></textarea>
+          <textarea class="form-text"></textarea>
           <input type="submit" class="btn-small btn-transparent text-gray-300 pull-right " id="submit-btn" />
           </div>
+          <div class="form-confirmation">Thanks for reaching out.</div>
       </div>
 
       <!-- footer  -->
