@@ -61,6 +61,11 @@ body,
 }
 
 /* media queries  */
+@media (max-width: 400px) {
+  #line-height {
+    margin: 1rem;
+  }
+}
 @media (min-width: 700px) and (max-width: 900px) {
   .about {
     margin: 6rem;
